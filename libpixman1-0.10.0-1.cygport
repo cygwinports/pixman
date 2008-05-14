@@ -1,0 +1,8 @@
+ORIG_PN="pixman"
+inherit xorg
+
+abi=${PN##*n}
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]="usr/bin/cygpixman-${abi}*.dll usr/share/"
+PKG_CONTENTS[1]='usr/include/ usr/lib/'
