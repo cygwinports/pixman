@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin
+external-source: pixman
+sdesc: "Low-level pixel manipulation library (runtime)"
+ldesc: "Low-level pixel manipulation library"

@@ -1,0 +1,7 @@
+inherit xorg
+
+abi=1-0
+PKG_NAMES="${PN} lib${PN}${abi/-/_} lib${PN}${abi%-*}-devel"
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]="usr/bin/cygpixman-${abi}.dll usr/share/"
+PKG_CONTENTS[2]='usr/include/ usr/lib/'
