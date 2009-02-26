@@ -1,0 +1,5 @@
+inherit xorg
+
+PKG_NAMES="${PN} lib${PN}1_0 lib${PN}1-devel"
+libpixman1_0_CONTENTS="usr/bin/cygpixman-1-0.dll usr/share/"
+libpixman1_devel_CONTENTS='usr/include/ usr/lib/'
