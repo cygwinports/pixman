@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libgcc1
+requires: libgcc1
 external-source: pixman
 sdesc: "Low-level pixel manipulation library (runtime)"
 ldesc: "Low-level pixel manipulation library"
