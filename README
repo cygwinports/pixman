@@ -29,20 +29,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpixman1-0.18.0-X-src.tar.bz2
+  unpack libpixman1-0.18.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpixman1-0.18.0-X.cygport all
+  cygport ./libpixman1-0.18.2-X.cygport all
 
 This will create:
-  /usr/src/libpixman1-devel-0.18.0-X.tar.bz2
-  /usr/src/libpixman1_0-0.18.0-X.tar.bz2
-  /usr/src/pixman-0.18.0-X-src.tar.bz2
+  /usr/src/libpixman1-devel-0.18.2-X.tar.bz2
+  /usr/src/libpixman1_0-0.18.2-X.tar.bz2
+  /usr/src/pixman-0.18.2-X-src.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.18.2-1 -----
+Version bump.
 
 ----- version 0.18.0-1 -----
 Version bump.
