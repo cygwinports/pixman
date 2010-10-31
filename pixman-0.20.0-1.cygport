@@ -1,6 +1,6 @@
 inherit xorg
 
-PATCH_URI="0.16.2-gcc4-visibility.patch"
+PATCH_URI="0.20.0-gcc4-visibility.patch"
 
 PKG_NAMES="lib${PN}1_0 lib${PN}1-devel"
 libpixman1_0_CONTENTS="usr/bin/cygpixman-1-0.dll usr/share/"
