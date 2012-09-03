@@ -1,5 +1,0 @@
-category: X11
-requires: libpixman1_0
-external-source: pixman
-sdesc: "Low-level pixel manipulation library (development)"
-ldesc: "Low-level pixel manipulation library"

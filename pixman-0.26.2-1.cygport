@@ -1,5 +1,8 @@
 inherit xorg
 
+CATEGORY="X11"
+SUMMARY="Low-level pixel manipulation library"
+
 PATCH_URI="0.20.0-gcc4-visibility.patch"
 
 PKG_NAMES="lib${PN}1_0 lib${PN}1-devel"
