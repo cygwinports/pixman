@@ -1,8 +1,13 @@
 inherit xorg
 
+NAME="pixman"
+VERSION=0.28.0
+RELEASE=1
 CATEGORY="X11"
 SUMMARY="Low-level pixel manipulation library"
-
+DESCRIPTION="pixman is a library that provides low-level pixel manipulation
+features such as image compositing and trapezoid rasterization.  It is used
+primarily by the cairo library and the X server."
 PATCH_URI="0.20.0-gcc4-visibility.patch"
 
 PKG_NAMES="lib${PN}1_0 lib${PN}1-devel"
