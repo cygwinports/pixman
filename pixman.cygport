@@ -1,9 +1,9 @@
 inherit xorg
 
 NAME="pixman"
-VERSION=0.28.2
+VERSION=0.30.0
 RELEASE=1
-CATEGORY="X11"
+CATEGORY="Libs"
 SUMMARY="Low-level pixel manipulation library"
 DESCRIPTION="pixman is a library that provides low-level pixel manipulation
 features such as image compositing and trapezoid rasterization.  It is used
