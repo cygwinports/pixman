@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="pixman"
-VERSION=0.30.2
+VERSION=0.32.4
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Low-level pixel manipulation library"
@@ -13,8 +13,3 @@ PATCH_URI="0.20.0-gcc4-visibility.patch"
 PKG_NAMES="lib${NAME}1_0 lib${NAME}1-devel"
 libpixman1_0_CONTENTS="usr/bin/cygpixman-1-0.dll usr/share/"
 libpixman1_devel_CONTENTS='usr/include/ usr/lib/'
-
-# SEGV in pixman-sse2.c:in_over_1x128 with Swing, libgd (gnome-weather)
-if defined ARCH_i686; then
-CYGCONF_ARGS="--disable-sse2"
-fi
