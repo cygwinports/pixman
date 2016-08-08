@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="pixman"
-VERSION=0.32.8
+VERSION=0.34.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Low-level pixel manipulation library"
